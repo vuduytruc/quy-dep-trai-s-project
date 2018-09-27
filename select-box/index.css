@@ -1,0 +1,48 @@
+body {
+  background: #eee;
+}
+
+.SelectBoxComponent {
+  height: 35px;
+  width: 200px;
+  overflow: visible;
+  position: relative;
+}
+.SelectBoxComponent .input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.SelectBoxComponent .post-fix {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.SelectBoxComponent .input:focus ~ .option-list {
+  display: block;
+}
+.SelectBoxComponent .option-list {
+  display: none;
+  position: relative;
+  top: 5px;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.SelectBoxComponent .option-list .option-item {
+  cursor: pointer;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.SelectBoxComponent .option-list .option-item:last-child {
+  margin-bottom: 10px;
+}
+.SelectBoxComponent .option-list .option-item:hover {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=index.css.map */
