@@ -1,0 +1,30 @@
+body {
+  background: #eee;
+}
+
+.MiddleContentBoxComponent .bordered-box {
+  height: 300px;
+  margin: 10px 50px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.MiddleContentBoxComponent .inner-box {
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.MiddleContentBoxComponent .with-flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MiddleContentBoxComponent .with-transform .inner-box {
+  width: fit-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=index.css.map */
